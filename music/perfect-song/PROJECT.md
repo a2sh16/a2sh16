@@ -1,12 +1,12 @@
 # The Perfect Song — Project File
-Status: **v0.8.1 — Model confirmed: Suno v6-mini (Free, phone app). Phase 9 test running**
+Status: **v0.9 — Chants rewritten in Arabic (meaningful, native). Phase 9 test running**
 
 ---
 
 ## 0. LOCKED BRIEF
 - **Effect:** calm or anxious → excited and motivated → **catharsis** (tears and elevation at the hero's exit)
 - **Listener:** Ahmad (personal). Possible public release later.
-- **Sonic world:** dark phonk/techno + **ancient Aramaic monastic chant** + **wordless angelic female vocalise** + the heaviest possible bass
+- **Sonic world:** dark phonk/techno + **deep Arabic male choir chanting slowly** + **wordless angelic female vocalise** + the heaviest possible bass
 - **Story, told by the music not the words:** One man against monsters and the world, to save his family, while the world watches.
   - He fights **to the beat**: fast, heavy-hitting battle segments.
   - **Hope is lost, and he returns stronger and faster.** This repeats several times.
@@ -94,7 +94,7 @@ Avoid aggressive distortion that pushes toward anger instead of drive, cluttered
 ### N. Suno moderation
 Graphic violence can get lyrics blocked. Write the battle in mythic language (monsters, shadows, gates, fire) rather than gore. It is also stronger art.
 
-### O. Why Aramaic, not Latin
+### O. ~~Why Aramaic~~ (superseded by W: Arabic). Kept for reference
 - **Older tradition:** Gregorian chant is Latin, codified in the 8th–9th centuries. **Syriac Aramaic chant is older**: Ephrem the Syrian composed hymns in the 4th century.
 - **Your roots:** Aramaic is the ancient tongue of Syria. Western Neo-Aramaic is **still spoken in Ma'loula, Syria**.
 - **Built-in lore:** Aramaic was the lingua franca of the ancient Near East, the language of empires and prophets. Few listeners understand it, so it sounds ancient and mythic.
@@ -108,7 +108,7 @@ Graphic violence can get lyrics blocked. Write the battle in mythic language (mo
 | Mawta | موت | death |
 | Shlama | سلام | peace |
 
-### P. The lexicon: 6 words, the whole story
+### P. ~~Aramaic lexicon~~ (superseded by W). Kept for reference
 | Aramaic (sung as) | Meaning | Where | Lore role |
 |---|---|---|---|
 | **Qum** (koom) | Arise | Every build, the war cry | The world's command each time he falls |
@@ -170,6 +170,23 @@ Hidden arc in the words: **Arise → Hero → Life → Light → Death → Peace
 | **Downloads** | Suno has been tightening downloads for Free accounts. **Verify** in your account whether download is allowed | If download is blocked, post-production (tempo ramps, mix, loudness) has to wait until the upgrade |
 | **Section tools** | Replace Section / Studio are paid features | Free = whole-song generations, judged by section |
 
+### W. Arabic chant lexicon (v0.9, replaces Aramaic)
+**Why the switch:** the Aramaic words, written phonetically for Suno (Koom, Hai-yeh…), came out sounding like gibberish. Arabic is Ahmad's native tongue, so every word lands with full meaning. Suno sings Arabic script directly, and the diacritics (tashkeel) guide pronunciation.
+
+| Section | Arabic | Meaning | Lore role |
+|---|---|---|---|
+| Intro | قُمْ… فَالفَجْرُ يَنْتَظِر | Arise… the dawn is waiting | The call |
+| Build 1 | قُمْ يَا فَارِس | Arise, O knight | The world names him |
+| Build 2 (after fall 1) | النَّارُ لَمْ تَمُتْ | The fire has not died | He returns |
+| Build 3 (after fall 2) | كُنْ نُوراً | Be light | He transcends |
+| Sacrifice | فِدَاءً | As a sacrifice: giving yourself for others | The price |
+| Exit | نَمْ يَا فَارِس… لَقَدْ وَفَيْت | Sleep, O knight… you have kept your oath | The farewell |
+| Exit | نُورُكَ بَاقٍ | Your light remains | The legacy |
+
+- **Mirror:** it opens with **قُمْ (Arise)** and closes with **نَمْ (Sleep)**, the same shape with one letter changed.
+- **Hidden arc:** Arise → dawn → fire → light → sacrifice → oath kept → light remains.
+- **Avoided on purpose:** "Jabbar" (جبّار, a Name of Allah) and Quranic phrasing, so the song stays non-religious and respectful.
+
 ### K. Suno constraints
 - **Style field:** ~1000 characters in v4.5/v5.
 - **Exclude Styles field:** used for negative prompts.
@@ -189,7 +206,7 @@ Hidden arc in the words: **Arise → Hero → Life → Light → Death → Peace
 | 2 | **Reference DNA** | Heartbeat bass · chant urgency build · "wake up" call-and-response · accelerando · long build→drop · phonk weight | 🟡 OPEN to more songs |
 | 3 | **Sonic physics** | 140 → ~147 → ~154 ✅ · techno → hybrid → phonk ✅ · C minor + Hijaz chant → C major ✅ · cowbell R3 ✅ | ✅ LOCKED |
 | 4 | **Arc and structure** | The journey through the song: intro → builds → breakdown → drops → outro, and length | ⚪ |
-| 5 | **Vocal architecture** | Aramaic monk choir ✅ · wordless angelic female vocalise ✅ · no lead singer ✅ | ✅ LOCKED |
+| 5 | **Vocal architecture** | Arabic male choir ✅ · wordless angelic female vocalise ✅ · no lead singer ✅ | ✅ LOCKED |
 | 6 | **Message** | Six Aramaic lore words: Qum, Gabbara, Hayye, Nuhra, Mawta, Shlama | ✅ LOCKED |
 | 7 | **Sound design and mix** | Headphone master: centered heartbeat, saturated sub, surrounding choir, −10 LUFS | ✅ LOCKED |
 | 8 | **Compile** | FULL + COMPACT versions for Suno Free | ✅ DONE |
@@ -237,7 +254,7 @@ BODY:    meet    power       loss    stronger    despair UNSTOPPABLE shock      
 
 **Style field:**
 ```
-epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, C minor, crushing heavy sub bass, heartbeat kick pulse, ancient Aramaic monastic male choir chanting in Hijaz scale Gregorian style, ethereal wordless angelic female vocalise, three escalating battle drops: first dark rolling techno, second techno phonk hybrid, third full heavy phonk with distorted 808s and dark cowbell melody, accelerating tension build-ups, risers and snare rolls, silence before each drop, mournful breakdowns where all hope is lost, each comeback faster and heavier, heroic tragic sacrifice finale, ends on C major chord, cathedral reverb, immersive wide stereo headphone mix, centered intimate heartbeat, choir surrounding the listener
+epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, C minor, crushing heavy sub bass, heartbeat kick pulse, deep Arabic male choir chanting slowly in maqam Hijaz, ancient monastic Gregorian style, ethereal wordless angelic female vocalise, three escalating battle drops: first dark rolling techno, second techno phonk hybrid, third full heavy phonk with distorted 808s and dark cowbell melody, accelerating tension build-ups, risers and snare rolls, silence before each drop, mournful breakdowns where all hope is lost, each comeback faster and heavier, heroic tragic sacrifice finale, ends on C major chord, cathedral reverb, immersive wide stereo headphone mix, centered intimate heartbeat, choir surrounding the listener
 ```
 
 **Exclude Styles field:**
@@ -245,17 +262,18 @@ epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, C minor, 
 pop, rap, love song, English lyrics, spoken word, lead singer, cheesy EDM, happy, dubstep wobble, autotune, lo-fi, thin bass, harsh noise, fade out
 ```
 
-**Lyrics field (phonetic spelling so Suno pronounces correctly):**
+**Lyrics field (v0.9 — Arabic with diacritics):**
 ```
-[Intro – heartbeat bass at half-time, low drone, ancient Aramaic monastic chant, no drums]
-(Koom… koom…)
+[Intro – heartbeat bass at half-time, low drone, deep Arabic male choir chanting slowly, no drums]
+قُمْ…
+قُمْ… فَالفَجْرُ يَنْتَظِر
 [Ethereal female vocalise, wordless, distant, pleading]
 (Ahhh… ahhh…)
 
-[Build – accelerating, monks rising, snare roll, risers]
-(Koom, gab-baa-ra)
-(Koom, gab-baa-ra)
-KOOM!
+[Build – accelerating, choir rising, snare roll, risers]
+قُمْ يَا فَارِس
+قُمْ يَا فَارِس
+قُمْ!
 [Silence]
 
 [Drop – dark rolling techno battle, four-on-the-floor, crushing bass]
@@ -264,10 +282,10 @@ KOOM!
 [Breakdown – bass cuts out, heartbeat faltering, dark drone, mournful female vocalise]
 (Ohhh…)
 
-[Build – faster, heavier, monks chanting]
-(Hai-yeh… hai-yeh…)
-(Koom, gab-baa-ra)
-KOOM!
+[Build – faster, heavier, choir chanting]
+النَّارُ لَمْ تَمُتْ
+النَّارُ لَمْ تَمُتْ
+قُمْ!
 [Silence]
 
 [Drop – faster techno phonk hybrid battle, saturated 808s, harder snares]
@@ -277,19 +295,20 @@ KOOM!
 (Ahhh…)
 
 [Build – fastest, full choir, maximum urgency]
-(Nooh-ra! Nooh-ra!)
-KOOM!
+كُنْ نُوراً
+كُنْ نُوراً
+قُمْ!
 [Silence]
 
 [Drop – fastest full heavy phonk battle, distorted 808s, dark cowbell melody, choir war cries]
 [Instrumental]
 
 [Sacrifice – everything stops, single impact, heartbeat alone, slowing]
-(Mau-ta…)
+فِدَاءً…
 
 [Outro – angelic female vocalise, full choir, slow, resolves to C major]
-(Shlaa-ma… gab-baa-ra…)
-(Nooh-ra…)
+نَمْ يَا فَارِس… لَقَدْ وَفَيْت
+نُورُكَ بَاقٍ
 [Heartbeat slows and stops]
 [End]
 ```
@@ -313,7 +332,7 @@ KOOM!
 ### COMPACT version (use if the style field limits characters or there's no Exclude field)
 - **Style (≈195 chars):**
 ```
-dark phonk techno, 140 BPM, C minor, crushing sub bass, heartbeat kick, Aramaic monk choir, wordless angelic female vocalise, escalating drops, tragic heroic finale, no rap, no pop
+dark phonk techno, 140 BPM, C minor, crushing sub bass, heartbeat kick, Arabic male choir, wordless angelic female vocalise, escalating drops, tragic heroic finale, no rap, no pop
 ```
 - **Lyrics:** same lyrics field. The section tags carry the structure.
 
@@ -330,7 +349,7 @@ dark phonk techno, 140 BPM, C minor, crushing sub bass, heartbeat kick, Aramaic 
 
 **FULL style + negatives (for v6-mini):**
 ```
-epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, C minor, crushing heavy sub bass, heartbeat kick pulse, ancient Aramaic monastic male choir chanting in Hijaz scale Gregorian style, ethereal wordless angelic female vocalise, three escalating battle drops: first dark rolling techno, second techno phonk hybrid, third full heavy phonk with distorted 808s and dark cowbell melody, accelerating tension build-ups, risers and snare rolls, silence before each drop, mournful breakdowns where all hope is lost, each comeback faster and heavier, heroic tragic sacrifice finale, ends on C major chord, cathedral reverb, immersive wide stereo headphone mix, centered intimate heartbeat, choir surrounding the listener, no rap, no pop vocals, no English lyrics, no autotune, no fade out
+epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, C minor, crushing heavy sub bass, heartbeat kick pulse, deep Arabic male choir chanting slowly in maqam Hijaz, ancient monastic Gregorian style, ethereal wordless angelic female vocalise, three escalating battle drops: first dark rolling techno, second techno phonk hybrid, third full heavy phonk with distorted 808s and dark cowbell melody, accelerating tension build-ups, risers and snare rolls, silence before each drop, mournful breakdowns where all hope is lost, each comeback faster and heavier, heroic tragic sacrifice finale, ends on C major chord, cathedral reverb, immersive wide stereo headphone mix, centered intimate heartbeat, choir surrounding the listener, no rap, no pop vocals, no Arabic pop, no English lyrics, no autotune, no fade out
 ```
 
 ---
@@ -382,3 +401,4 @@ epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, C minor, 
 | 7 | Listening | Headphones → centered heartbeat, saturated sub, surrounding choir, −10 LUFS / −1 dBTP |
 | 8 | Suno plan | Free for testing. Upgrade + regenerate the final before any release |
 | 8a | Model | Suno v6-mini (Free, phone). FULL style + inline negatives, Instrumental OFF |
+| 9 | Chant language | **Arabic** replaces Aramaic (the phonetic Aramaic sounded like gibberish). 7 short lines, قُمْ → نَمْ mirror |
