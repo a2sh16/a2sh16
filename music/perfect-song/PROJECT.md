@@ -1,5 +1,5 @@
 # The Perfect Song — Project File
-Status: **v0.8 — COMPILED for Suno Free. Phase 9 (test) open**
+Status: **v0.8.1 — Model confirmed: Suno v6-mini (Free, phone app). Phase 9 test running**
 
 ---
 
@@ -319,6 +319,22 @@ dark phonk techno, 140 BPM, C minor, crushing sub bass, heartbeat kick, Aramaic 
 
 ---
 
+## 4B-2. PHONE APP SETUP (Suno v6-mini, Advanced mode)
+1. **Model:** keep `v6-mini` (the Free model). Use the **FULL** style.
+2. **Turn OFF "Instrumental"** (tap the checkmark so it clears). If it stays on, Suno will drop the chants and the vocalise.
+3. **Lyrics box:** tap ⤢ (expand), paste the lyrics field.
+4. **Styles box:** tap ⤢, paste the FULL style **with negatives appended** (no Exclude field is visible in More Options). Do **not** tap the suggestion chips (grunge, fast…).
+5. **Do not tap the ✨ magic wand** in either box. It rewrites your text.
+6. **More Options → Variety:** clips 1–3 at **Normal** (closest to the prompt), clips 4–5 one notch **higher** (exploration).
+7. Title: **QUM**. Tap **Create**. Repeat.
+
+**FULL style + negatives (for v6-mini):**
+```
+epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, C minor, crushing heavy sub bass, heartbeat kick pulse, ancient Aramaic monastic male choir chanting in Hijaz scale Gregorian style, ethereal wordless angelic female vocalise, three escalating battle drops: first dark rolling techno, second techno phonk hybrid, third full heavy phonk with distorted 808s and dark cowbell melody, accelerating tension build-ups, risers and snare rolls, silence before each drop, mournful breakdowns where all hope is lost, each comeback faster and heavier, heroic tragic sacrifice finale, ends on C major chord, cathedral reverb, immersive wide stereo headphone mix, centered intimate heartbeat, choir surrounding the listener, no rap, no pop vocals, no English lyrics, no autotune, no fade out
+```
+
+---
+
 ## 4C. PHASE 9 — TEST PROTOCOL (daily, Free credits)
 
 **Setup:** headphones, a quiet room, your watch on, the volume limit set.
@@ -365,3 +381,4 @@ dark phonk techno, 140 BPM, C minor, crushing sub bass, heartbeat kick, Aramaic 
 | 6c | Cowbell | Yes, Round 3 only, dark, plays the angel motif |
 | 7 | Listening | Headphones → centered heartbeat, saturated sub, surrounding choir, −10 LUFS / −1 dBTP |
 | 8 | Suno plan | Free for testing. Upgrade + regenerate the final before any release |
+| 8a | Model | Suno v6-mini (Free, phone). FULL style + inline negatives, Instrumental OFF |
