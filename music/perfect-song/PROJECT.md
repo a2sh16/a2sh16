@@ -1,5 +1,5 @@
 # The Perfect Song — Project File
-Status: **v0.6 — Round escalation, key and cowbell locked. Phase 7 (sound design and mix) open**
+Status: **v0.7 — Headphone mix locked. Phase 8 (compile) open**
 
 ---
 
@@ -143,6 +143,22 @@ Hidden arc in the words: **Arise → Hero → Life → Light → Death → Peace
 
 - **Cowbell decision:** **YES, Round 3 only**, dark, detuned and in key. It plays the angel's vocalise motif, so the family's voice becomes his weapon in the final battle. Reversible in testing.
 
+### U. Headphone mix design
+| Element | Target | Why |
+|---|---|---|
+| **Heartbeat** | Dead center, mono | A centered mono sound on headphones seems to come from **inside your head and chest**. His heartbeat becomes yours |
+| **Sub-bass** | Strong 30–60 Hz plus **saturation harmonics at 100–300 Hz** | Closed or ANC headphones reproduce deep sub, earbuds don't. Saturation creates the "missing fundamental": the brain hears bass from its harmonics on any headphone [STRONG psychoacoustics] |
+| **Monk choir** | Wide, surrounding, spatial | The world watching from all sides. Optional binaural panning places the choir *around* your head |
+| **Angel vocalise** | High, slightly off-center, long reverb, drifting | Feels like a presence just above or behind you |
+| **Battles** | Punchy and tight, no harsh 2–5 kHz | Harsh upper mids cause the most fatigue on headphones |
+| **Stereo** | Wide, but no extreme hard-panning of rhythm | Hard-panned drums on headphones are unnatural and tiring |
+| **Loudness** | **−10 LUFS integrated, −1 dBTP true peak** (personal master) | Loud enough for phonk weight but keeps the dynamic range the falls need. A release master would be checked against −14 LUFS streaming normalization |
+| **Falls and silences** | True near-silence | On headphones, silence is total, which gives maximum contrast and maximum chills |
+
+- **Hearing safety [STRONG]:** WHO safe-listening limit is ~80 dB for 40 h/week. Set the volume so the Round 3 peak is comfortable, never painful. Turn on your phone's headphone-level limit (iPhone: Settings → Sounds & Haptics → Headphone Safety → Reduce Loud Audio, 85 dB).
+- **Binaural beats are now possible** (headphones only). Evidence is weak. **v1 skips them.** Optional A/B test in Phase 9: a faint beta-range layer (~15–20 Hz offset) under Build 3.
+- **Post-production tools (free):** Audacity (tempo ramps, EQ, loudness normalization to LUFS); optional free binaural panner plugin for the choir.
+
 ### K. Suno constraints
 - **Style field:** ~1000 characters in v4.5/v5.
 - **Exclude Styles field:** used for negative prompts.
@@ -164,8 +180,8 @@ Hidden arc in the words: **Arise → Hero → Life → Light → Death → Peace
 | 4 | **Arc and structure** | The journey through the song: intro → builds → breakdown → drops → outro, and length | ⚪ |
 | 5 | **Vocal architecture** | Aramaic monk choir ✅ · wordless angelic female vocalise ✅ · no lead singer ✅ | ✅ LOCKED |
 | 6 | **Message** | Six Aramaic lore words: Qum, Gabbara, Hayye, Nuhra, Mawta, Shlama | ✅ LOCKED |
-| 7 | **Sound design and mix** | Listening context → mix targets | 🔵 OPEN |
-| 8 | **Compile** | Final Suno Style + Exclude + Lyrics fields | ⚪ |
+| 7 | **Sound design and mix** | Headphone master: centered heartbeat, saturated sub, surrounding choir, −10 LUFS | ✅ LOCKED |
+| 8 | **Compile** | Final Suno fields matched to Suno version/plan | 🔵 OPEN |
 | 9 | **Test and refine** | Generate variants, measure heart rate and your felt motivation (1–10), chills count, iterate | ⚪ |
 | 10 | **Release prep** (optional) | Originality check, Suno commercial terms, mastering, distribution | ⚪ |
 
@@ -210,7 +226,7 @@ BODY:    meet    power       loss    stronger    despair UNSTOPPABLE shock      
 
 **Style field:**
 ```
-epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, C minor, crushing heavy sub bass, heartbeat kick pulse, ancient Aramaic monastic male choir chanting in Hijaz scale Gregorian style, ethereal wordless angelic female vocalise, three escalating battle drops: first dark rolling techno, second techno phonk hybrid, third full heavy phonk with distorted 808s and dark cowbell melody, accelerating tension build-ups, risers and snare rolls, silence before each drop, mournful breakdowns where all hope is lost, each comeback faster and heavier, heroic tragic sacrifice finale, ends on C major chord, cathedral reverb
+epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, C minor, crushing heavy sub bass, heartbeat kick pulse, ancient Aramaic monastic male choir chanting in Hijaz scale Gregorian style, ethereal wordless angelic female vocalise, three escalating battle drops: first dark rolling techno, second techno phonk hybrid, third full heavy phonk with distorted 808s and dark cowbell melody, accelerating tension build-ups, risers and snare rolls, silence before each drop, mournful breakdowns where all hope is lost, each comeback faster and heavier, heroic tragic sacrifice finale, ends on C major chord, cathedral reverb, immersive wide stereo headphone mix, centered intimate heartbeat, choir surrounding the listener
 ```
 
 **Exclude Styles field:**
@@ -299,3 +315,4 @@ KOOM!
 | 6a | Round escalation | R1 dark techno → R2 techno-phonk → R3 full phonk |
 | 6b | Key | C minor, Hijaz-flavored chant → final C major |
 | 6c | Cowbell | Yes, Round 3 only, dark, plays the angel motif |
+| 7 | Listening | Headphones → centered heartbeat, saturated sub, surrounding choir, −10 LUFS / −1 dBTP |
