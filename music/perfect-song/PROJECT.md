@@ -1,5 +1,5 @@
 # The Perfect Song — Project File
-Status: **v0.9 — Chants rewritten in Arabic (meaningful, native). Phase 9 test running**
+Status: **v1.0 — Classical golden-age Arabic poetry + single-genre heavy phonk. USE SECTION 4-NOW**
 
 ---
 
@@ -198,6 +198,32 @@ Hidden arc in the words: **Arise → Hero → Life → Light → Death → Peace
 
 ---
 
+### X. Why test 1 failed (not heavy, no heartbeat, too varying)
+- **Prompt dilution:** the style asked for 3 genres, orchestral swells, cathedral reverb, mournful breakdowns and more. Suno averaged all of it into something mid-weight and inconsistent. In practice Suno also weights the **first tags** most.
+- **Soft words softened the result:** "cinematic", "orchestral", "cathedral reverb", "mournful", "mostly instrumental".
+- **Fix:**
+  - **One genre** (heavy dark phonk) from start to end.
+  - **Heaviness and heartbeat front-loaded** in the first 5 tags.
+  - Soft elements banned in the negatives.
+  - **150 BPM** for more drive.
+  - The structure now lives in the lyrics tags, not the style.
+  - **Variety slider at the lowest setting.**
+
+### Y. Classical poetry lexicon (v1.0, replaces W)
+All the verses come from golden-age poets who died over 1,000 years ago, so they are **public domain** and safe to release. None of the chosen lines is in the first person. All are secular.
+
+| Section | Verse | Poet | Meaning | Lore role |
+|---|---|---|---|---|
+| Intro | أَلَا أَيُّهَا اللَّيْلُ الطَّوِيلُ أَلَا انْجَلِي | Imru' al-Qays (Mu'allaqa, 6th c.) | O long night, will you not lift? | Darkness, the threat, waiting for dawn |
+| Build 1 | إِذَا غَامَرْتَ فِي شَرَفٍ مَرُومِ / فَلَا تَقْنَعْ بِمَا دُونَ النُّجُومِ | al-Mutanabbi (10th c.) | When you venture for a sought-after glory, settle for nothing below the stars | The call to rise |
+| Drop 1 | السَّيْفُ أَصْدَقُ إِنْبَاءً مِنَ الكُتُبِ | Abu Tammam (9th c., Amorium ode) | The sword speaks truer than books | Battle begins |
+| Build 2 (after fall 1) | وَإِذَا كَانَتِ النُّفُوسُ كِبَارًا / تَعِبَتْ فِي مُرَادِهَا الأَجْسَامُ | al-Mutanabbi | When souls are great, bodies grow weary chasing what they seek | Why he fell, and why he rises |
+| Build 3 (after fall 2) | عَلَى قَدْرِ أَهْلِ العَزْمِ تَأْتِي العَزَائِمُ | al-Mutanabbi | Feats of will come in the measure of those who will them | The final comeback |
+| Sacrifice | فَطَعْمُ المَوْتِ فِي أَمْرٍ حَقِيرٍ / كَطَعْمِ المَوْتِ فِي أَمْرٍ عَظِيمِ | al-Mutanabbi (same ode as Build 1) | Death tastes the same in a petty cause as in a great one | So he chose the great one |
+| Exit | عُلُوٌّ فِي الحَيَاةِ وَفِي المَمَاتِ / لَحَقٌّ أَنْتَ إِحْدَى المُعْجِزَاتِ | Abu al-Hasan al-Anbari (10th c., elegy for Ibn Baqiyya) | Lofty in life and in death. Truly, you are one of the wonders | The world's farewell to the hero |
+
+- **Hidden thread:** Build 1 and the Sacrifice come from the **same Mutanabbi ode**. The verse that sends him to the stars also tells him why death in a great cause is worth it.
+
 ## 2. OUTLINE — Build phases
 
 | # | Phase | What we decide | Status |
@@ -374,6 +400,67 @@ epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, C minor, 
 
 ---
 
+## 4-NOW. CURRENT PROMPT — v1.0 (USE THIS; all earlier prompts superseded)
+
+**Phone settings:** Model v6-mini · **Instrumental OFF** · **Variety: far left (lowest)** · no magic wand · Title: QUM
+
+**Style:**
+```
+heavy dark phonk, 150 BPM, pounding heartbeat kick drum, crushing distorted 808 bass, aggressive hard-hitting drums, relentless driving energy, deep Arabic male choir chanting classical poetry in maqam Hijaz, haunting wordless female vocalise, C minor, massive bass drops, consistent heavy groove, no rap, no pop, no orchestral, no soft ambient, no piano, no autotune, no fade out
+```
+
+**Lyrics:**
+```
+[Intro – pounding heartbeat kick, low 808 drone, deep Arabic male choir chanting]
+أَلَا أَيُّهَا اللَّيْلُ الطَّوِيلُ أَلَا انْجَلِي
+أَلَا أَيُّهَا اللَّيْلُ الطَّوِيلُ أَلَا انْجَلِي
+[Wordless female vocalise]
+(Ahhh…)
+
+[Build – rising, snare roll, choir intensifying]
+إِذَا غَامَرْتَ فِي شَرَفٍ مَرُومِ
+فَلَا تَقْنَعْ بِمَا دُونَ النُّجُومِ
+[Silence]
+
+[Drop – heavy phonk, pounding heartbeat kick, crushing distorted 808s]
+السَّيْفُ أَصْدَقُ إِنْبَاءً مِنَ الكُتُبِ
+[Instrumental]
+
+[Break – bass cut, heartbeat only, wordless female vocalise]
+(Ohhh…)
+
+[Build – heavier, choir chanting]
+وَإِذَا كَانَتِ النُّفُوسُ كِبَارًا
+تَعِبَتْ فِي مُرَادِهَا الأَجْسَامُ
+[Silence]
+
+[Drop – heavier phonk, harder 808s]
+[Instrumental]
+
+[Break – near silence, faint heartbeat]
+(Ahhh…)
+
+[Build – maximum intensity, full choir]
+عَلَى قَدْرِ أَهْلِ العَزْمِ تَأْتِي العَزَائِمُ
+عَلَى قَدْرِ أَهْلِ العَزْمِ تَأْتِي العَزَائِمُ
+[Silence]
+
+[Drop – heaviest phonk, distorted 808s, choir war cries]
+[Instrumental]
+
+[Sacrifice – everything stops, heartbeat alone, slowing]
+فَطَعْمُ المَوْتِ فِي أَمْرٍ حَقِيرٍ
+كَطَعْمِ المَوْتِ فِي أَمْرٍ عَظِيمِ
+
+[Outro – wordless female vocalise, full choir, slow, final C major chord]
+عُلُوٌّ فِي الحَيَاةِ وَفِي المَمَاتِ
+لَحَقٌّ أَنْتَ إِحْدَى المُعْجِزَاتِ
+[Heartbeat stops]
+[End]
+```
+
+---
+
 ## 5. DECISION LOG
 | # | Decision | Value |
 |---|---|---|
@@ -402,3 +489,6 @@ epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, C minor, 
 | 8 | Suno plan | Free for testing. Upgrade + regenerate the final before any release |
 | 8a | Model | Suno v6-mini (Free, phone). FULL style + inline negatives, Instrumental OFF |
 | 9 | Chant language | **Arabic** replaces Aramaic (the phonetic Aramaic sounded like gibberish). 7 short lines, قُمْ → نَمْ mirror |
+| 10a | Lyrics | Classical golden-age verses: Imru' al-Qays, al-Mutanabbi, Abu Tammam, al-Anbari. Replaces the v0.9 Arabic lines |
+| 10b | Style | **Single genre: heavy dark phonk, 150 BPM**, heartbeat kick front-loaded. Reverses 6a (techno→hybrid→phonk) and the 140 base. Escalation now by intensity only |
+| 10c | Variety | Lowest setting |
