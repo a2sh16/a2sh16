@@ -1,18 +1,19 @@
 # The Perfect Song — Project File
-Status: **v0.4 — Hero story locked, references expanded, Phase 3 open**
+Status: **v0.5 — Aramaic chants, minimal lore words, wordless angel, fight-to-the-beat cycles. Phase 3 open**
 
 ---
 
 ## 0. LOCKED BRIEF
-- **Effect:** calm or anxious → excited and motivated → **catharsis** (moved to tears at the hero's exit)
+- **Effect:** calm or anxious → excited and motivated → **catharsis** (tears and elevation at the hero's exit)
 - **Listener:** Ahmad (personal). Possible public release later.
-- **Sonic world:** dark techno/phonk + Gregorian chant + angelic female vocals + the **heaviest possible bass**
-- **Story:** One man against monsters and the world. He fights through everything in his way to save his family while the whole world watches. He moves with the beat in multi-battle style. In the end he **sacrifices his life to protect the world**, a hero's exit worthy of tears.
-- **Concept:** **EXPERGISCERE (Wake Up)**
-  - It opens with his family's voice: **"wake up"**.
-  - It closes with the angel's voice: **"sleep now"**.
-  - The heartbeat bass is his life. It starts at 70, rises to 140 in battle, and **slows to a stop** at the sacrifice.
-- **Tempo:** 140 BPM backbone. The intro heartbeat runs at half-time (70). The builds **accelerate**, Welcome-to-the-Internet style, using an Audacity *Sliding Stretch* in post-production.
+- **Sonic world:** dark phonk/techno + **ancient Aramaic monastic chant** + **wordless angelic female vocalise** + the heaviest possible bass
+- **Story, told by the music not the words:** One man against monsters and the world, to save his family, while the world watches.
+  - He fights **to the beat**: fast, heavy-hitting battle segments.
+  - **Hope is lost, and he returns stronger and faster.** This repeats several times.
+  - It ends in sacrifice and a hero's exit worthy of tears.
+- **Lyrics:** almost none. **Six Aramaic words**, deep in meaning and lore. No first person, no storytelling lines.
+- **Working title:** **QUM** ("Arise"). The word is identical in Aramaic and Arabic (قُم).
+- **Heartbeat bass = his life:** 70 → 140 → faster each comeback → slows → stops.
 - **Not a love song.** Not religiously driven.
 
 ---
@@ -93,6 +94,41 @@ Avoid aggressive distortion that pushes toward anger instead of drive, cluttered
 ### N. Suno moderation
 Graphic violence can get lyrics blocked. Write the battle in mythic language (monsters, shadows, gates, fire) rather than gore. It is also stronger art.
 
+### O. Why Aramaic, not Latin
+- **Older tradition:** Gregorian chant is Latin, codified in the 8th–9th centuries. **Syriac Aramaic chant is older**: Ephrem the Syrian composed hymns in the 4th century.
+- **Your roots:** Aramaic is the ancient tongue of Syria. Western Neo-Aramaic is **still spoken in Ma'loula, Syria**.
+- **Built-in lore:** Aramaic was the lingua franca of the ancient Near East, the language of empires and prophets. Few listeners understand it, so it sounds ancient and mythic.
+- **Arabic bridge:** the chosen words share roots with Arabic, so the song also carries Arabic meaning for you:
+
+| Aramaic | Arabic | Meaning |
+|---|---|---|
+| Qum | قُم | arise |
+| Nuhra | نور | light |
+| Hayye | حياة | life |
+| Mawta | موت | death |
+| Shlama | سلام | peace |
+
+### P. The lexicon: 6 words, the whole story
+| Aramaic (sung as) | Meaning | Where | Lore role |
+|---|---|---|---|
+| **Qum** (koom) | Arise | Every build, the war cry | The world's command each time he falls |
+| **Gabbara** (gab-BAA-ra) | Mighty one / hero | Builds | What the world calls him |
+| **Hayye** (HAI-yeh) | Life | Build 2 | What he fights for |
+| **Nuhra** (NOOH-ra) | Light | Build 3, exit | What he becomes |
+| **Mawta** (MAU-ta) | Death | Sacrifice | The price |
+| **Shlama** (SHLAA-ma) | Peace | Exit | His reward and farewell |
+
+Hidden arc in the words: **Arise → Hero → Life → Light → Death → Peace.**
+
+### Q. Hope lost → comeback: why it hits harder
+- **Contrastive valence [MODERATE→STRONG]:** Huron, *Sweet Anticipation* (2006): pleasure is amplified when it follows a negative or tense state. The worse the fall, the bigger the comeback hit.
+- **Dropout:** pulling the bass and drums out is the single strongest "loss" signal in electronic music. A faltering heartbeat adds a bodily sense of danger.
+- **Escalation:** each comeback is faster and heavier, so the body never adapts (habituation). Each round needs a new peak.
+
+### R. Wordless vocalise
+- **No words, more emotion [MODERATE]:** without words the listener projects their own meaning onto the voice, and the brain processes it purely as emotion. This is the "angel" effect.
+- **In Suno:** write vowels in parentheses, e.g. `(ahhh)`, `(ooh)`, and add "wordless vocalise" to the Style field.
+
 ### K. Suno constraints
 - **Style field:** ~1000 characters in v4.5/v5.
 - **Exclude Styles field:** used for negative prompts.
@@ -110,10 +146,10 @@ Graphic violence can get lyrics blocked. Write the battle in mythic language (mo
 |---|---|---|---|
 | 1 | **Purpose** | Calm or anxious → excited and motivated | ✅ LOCKED |
 | 2 | **Reference DNA** | Heartbeat bass · chant urgency build · "wake up" call-and-response · accelerando · long build→drop · phonk weight | 🟡 OPEN to more songs |
-| 3 | **Sonic physics** | 140 BPM ✅ · accelerando builds ✅ · heaviest bass ✅ · drop flavor ⏸ · battle vocal style 🔵 | 🔵 OPEN |
+| 3 | **Sonic physics** | 140 BPM base ✅ · faster each comeback ✅ · heaviest bass ✅ · **drop flavor per round** 🔵 | 🔵 OPEN |
 | 4 | **Arc and structure** | The journey through the song: intro → builds → breakdown → drops → outro, and length | ⚪ |
-| 5 | **Vocal architecture** | Chant (male choir, Latin), angelic female layer, lead voice yes/no | ⚪ |
-| 6 | **Message** | Theme, language (Latin / English / mix), lyrics | ⚪ |
+| 5 | **Vocal architecture** | Aramaic monk choir ✅ · wordless angelic female vocalise ✅ · no lead singer ✅ | ✅ LOCKED |
+| 6 | **Message** | Six Aramaic lore words: Qum, Gabbara, Hayye, Nuhra, Mawta, Shlama | ✅ LOCKED |
 | 7 | **Sound design and mix** | Synths, kick, sidechain, reverb space, dynamics | ⚪ |
 | 8 | **Compile** | Final Suno Style + Exclude + Lyrics fields | ⚪ |
 | 9 | **Test and refine** | Generate variants, measure heart rate and your felt motivation (1–10), chills count, iterate | ⚪ |
@@ -124,128 +160,104 @@ Graphic violence can get lyrics blocked. Write the battle in mythic language (mo
 ## 3. MAP — Story × body × sound
 
 ```
-STORY:  PEACE ─► THREAT ─► WAKE UP ─► BATTLE ─► WORLD WATCHES ─► WAR PEAK ─► SACRIFICE ─► HERO'S EXIT
-HEART:  70       70        70→140 ↗   140       break            140 MAX     140→70→0 ↘    silence
-BODY:   meet     alert     urgency    power     chills           action      shock         tears + elevation
+ROUND:   CALL ─► BATTLE 1 ─► FALL ─► BATTLE 2 ─► FALL ─► BATTLE 3 ─► SACRIFICE ─► EXIT
+BPM:     70h     140         drop    ~147 ↑      drop    ~154 ↑↑     140→70→0     —
+WORD:    Qum     Qum         —       Hayye       —       Nuhra       Mawta        Shlama
+BODY:    meet    power       loss    stronger    despair UNSTOPPABLE shock        tears + elevation
 │
-├── HEARTBEAT BASS ── his life ────────── 70 → 140 → slows → stops
-├── ACCELERANDO ───── urgency ─────────── tempo ramps on both builds (post-production)
-├── CHANT BUILD ───── anticipation ────── monks rise, denser, risers, snare rolls
-├── "WAKE UP" ─────── family's call ───── stretched solo female → choir/crowd answers
-├── HEAVY DROPS ───── power ───────────── crushing distorted sub/808
-├── BATTLE VOCALS ─── combat ──────────── intense rhythmic male lines on the beat
-├── WORLD CHORUS ──── witness/rally ───── full choir = the world watching
-└── FINALE ────────── kama muta ───────── appoggiaturas, angel lament, minor → MAJOR final chord
+├── HEARTBEAT BASS ── his life ──────── half-time intro → full → falters on falls → stops
+├── BUILDS ────────── anticipation ──── monks rise, risers, snare roll, silence, drop
+├── BATTLES ───────── fight to beat ─── fast, hard-hitting, crushing 808/sub, no words
+├── FALLS ─────────── hope lost ─────── bass and drums vanish, heartbeat falters, mournful angel
+├── COMEBACKS ─────── stronger/faster ─ each round faster (+5%, +10%) and heavier
+├── MONK CHOIR ────── the world ─────── chants "Qum" to raise him every time
+├── ANGEL ─────────── his family/soul ─ wordless vocalise, pleading → lament
+└── FINALE ────────── kama muta ─────── minor → MAJOR final chord, heartbeat stops
 ```
 
-### Arc v0.4 (~5:00)
+### Arc v0.5 (~5:30)
 | Time | Section | Content | Listener state |
 |---|---|---|---|
-| 0:00 | Peace | Heartbeat at 70, drone, distant monks | Meets you calm or anxious |
-| 0:25 | The Call | Stretched female "wake up… they're coming" | Alert |
-| 0:45 | The Threat | Monk chant "Monstra veniunt, mundus spectat" | Dread → resolve |
-| 1:00 | Build 1 | **Accelerando**, risers, snare roll, silence | Urgency |
-| 1:25 | Drop 1 | Heavy bass, battle begins | Power |
-| 1:40 | Battle Verse 1 | Intense rhythmic male lines | Combat, flow |
-| 2:20 | World Watches | Silence → solo female → choir shouts "WAKE UP / STAND UP" | Chills |
-| 2:45 | Build 2 | **Accelerando**, "NUNC AGE!" | Peak anticipation |
-| 3:05 | Drop 2 | Heaviest bass, full choir | Maximum force |
-| 3:20 | Battle Verse 2 | Faster, more intense | Unstoppable |
-| 4:00 | Sacrifice | Everything cuts, one impact, heartbeat alone and slowing | Shock |
-| 4:15 | Hero's Exit | Angel lament + choir, "sleep now", final MAJOR chord, heartbeat stops | Tears, elevation |
+| 0:00 | The Call | Heartbeat at 70, drone, monks "Qum…", distant angel vocalise | Meets you |
+| 0:40 | Build 1 | Monks "Qum, gabbara", riser, snare roll, silence | Urgency |
+| 1:00 | **Battle 1** | Fast hard-hitting beat, heavy bass (140) | Power |
+| 1:40 | **Fall 1** | Bass cuts, heartbeat falters, mournful angel | Loss |
+| 2:00 | Build 2 | Faster, monks "Hayye… Qum, gabbara" | Resolve |
+| 2:20 | **Battle 2** | Faster (~147), heavier | Stronger |
+| 3:00 | **Fall 2** | Almost silence, heartbeat barely there, one angel note | Despair |
+| 3:15 | Build 3 | Fastest, full choir "Nuhra! QUM!" | Maximum anticipation |
+| 3:35 | **Battle 3** | Fastest (~154), heaviest, choir war cries | Unstoppable |
+| 4:30 | **Sacrifice** | Everything stops, one impact, heartbeat slowing, monks "Mawta…" | Shock |
+| 4:45 | **Hero's Exit** | Angel lament + full choir "Shlama, gabbara… Nuhra", final MAJOR chord, heartbeat stops | Tears, elevation |
 
 ---
 
-## 4. EVOLVING SUNO PROMPT — v0.4
+## 4. EVOLVING SUNO PROMPT — v0.5
 
 **Style field:**
 ```
-epic cinematic dark techno phonk hybrid, 140 BPM, crushing heavy sub bass, distorted 808s, heartbeat kick pulse, Gregorian monastic male choir, ethereal angelic female vocals, stretched pleading female hook, choir call and response, intense rhythmic male battle vocals, war chant cadence, slowly accelerating tension build-ups, risers and snare rolls, massive bass drops, cathedral reverb, minor key, heroic tragic finale, emotional sacrifice ending, final major chord, epic orchestral swell
+epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, fast hard-hitting battle beats, crushing heavy sub bass, distorted 808s, heartbeat kick pulse, ancient Aramaic monastic male choir chanting in Gregorian style, ethereal wordless angelic female vocalise, accelerating tension build-ups, risers and snare rolls, silence before each drop, repeated cycles of collapse and stronger comeback, each drop faster and heavier than the last, mournful breakdowns, minor key, heroic tragic sacrifice finale, final major chord, cathedral reverb
 ```
 
 **Exclude Styles field:**
 ```
-pop, love song, cheesy EDM, happy, dubstep wobble, autotune, lo-fi, thin bass, harsh noise, cluttered mix, fade out
+pop, rap, love song, English lyrics, spoken word, lead singer, cheesy EDM, happy, dubstep wobble, autotune, lo-fi, thin bass, harsh noise, fade out
 ```
 
-**Lyrics field:**
+**Lyrics field (phonetic spelling so Suno pronounces correctly):**
 ```
-[Intro – heartbeat bass at half-time, low drone, distant Gregorian chant]
-(Expergiscere… expergiscere…)
+[Intro – heartbeat bass at half-time, low drone, ancient Aramaic monastic chant, no drums]
+(Koom… koom…)
+[Ethereal female vocalise, wordless, distant, pleading]
+(Ahhh… ahhh…)
 
-[Ethereal female voice, far away, pleading]
-Wake… uuup…
-They're coming… wake up…
-
-[Gregorian chant – deep male choir, tension rising]
-(Monstra veniunt)
-(Mundus spectat)
-(Surge, surge, tempus est)
-
-[Build – accelerating, chant rising, snare roll, risers]
-Wake up! Wake up!
-(Surge! Surge!)
-(Nunc age!)
+[Build – accelerating, monks rising, snare roll, risers]
+(Koom, gab-baa-ra)
+(Koom, gab-baa-ra)
+KOOM!
 [Silence]
 
-[Drop – crushing bass, battle begins]
+[Drop – fast heavy battle beat, crushing bass]
+[Instrumental]
 
-[Battle Verse 1 – intense rhythmic male vocal, war chant cadence]
-One man, one road, one fire in my chest
-Ten thousand shadows, I don't need rest
-You came for my blood, you came for my home
-I was born for this, I walk alone
-Every step a drumbeat, every breath a war
-Break me, I rise, I come back for more
-The whole world watching through the smoke and the flame
-Tell the monsters at the gate to remember my name
+[Breakdown – bass cuts out, heartbeat faltering, dark drone, mournful female vocalise]
+(Ohhh…)
 
-[Breakdown – silence, then solo female vocal]
-Wake… up…
-[Full choir answers]
-WAKE UP!
-[Solo female]
-Don't… fall…
-[Full choir answers]
-STAND UP!
-
-[Build – maximum urgency, accelerating, choir crescendo]
-(Cor meum ardet)
-(Nunc age! Nunc age!)
-NUNC AGE!
+[Build – faster, heavier, monks chanting]
+(Hai-yeh… hai-yeh…)
+(Koom, gab-baa-ra)
+KOOM!
 [Silence]
 
-[Drop – heaviest, full choir over crushing bass]
+[Drop – faster, heavier battle]
+[Instrumental]
 
-[Battle Verse 2 – faster, more intense]
-Left, right, through the night, I don't fall
-Back to the wall, I'll take them all
-For her eyes, for her name, for the child that I hold
-Every scar is a promise, every wound is gold
-They keep getting bigger, I keep getting stronger
-Hold the line, just a little bit longer
-If the price is my life, then the price is paid
-Let the world remember the stand I made
+[Breakdown – near silence, heartbeat barely beating, single female note]
+(Ahhh…)
+
+[Build – fastest, full choir, maximum urgency]
+(Nooh-ra! Nooh-ra!)
+KOOM!
+[Silence]
+
+[Drop – fastest, heaviest, final battle, choir war cries]
+[Instrumental]
 
 [Sacrifice – everything stops, single impact, heartbeat alone, slowing]
-[Soft male voice, almost spoken]
-Tell them I stayed…
-Tell them I stayed…
+(Mau-ta…)
 
-[Hero's Exit – angelic female lament, full choir, slow, final major chord]
-(Requiesce, custos)
-Sleep now… you can sleep now…
-(Lux tua manet)
+[Outro – angelic female vocalise, full choir, slow, final major chord]
+(Shlaa-ma… gab-baa-ra…)
+(Nooh-ra…)
 [Heartbeat slows and stops]
 [End]
 ```
-*Latin key:* Expergiscere = wake up · Monstra veniunt = the monsters are coming · Mundus spectat = the world is watching · Surge, tempus est = rise, it is time · Nunc age = now act · Cor meum ardet = my heart burns · Requiesce, custos = rest, guardian · Lux tua manet = your light remains.
 
 ### Post-production plan
 1. Generate 4–8 Suno variations. Keep the best one.
-2. Audacity *Sliding Stretch* on Build 1 and Build 2 (0% → +6–10%) for the accelerando.
-3. Low-shelf boost below 60 Hz if more bass weight is needed. Check on headphones **and** car/sub.
-4. Optional: a recorded real heartbeat layered under the intro and the sacrifice.
+2. Audacity *Sliding Stretch*: Build 1 0→+3%, Round 2 hold +5%, Build 3 ramp +5→+10%, Round 3 hold +10%. Return to the original speed at the Sacrifice.
+3. Low-shelf boost below 60 Hz if more weight is needed. Check on headphones **and** car/sub.
+4. Optional: a recorded real heartbeat layered under the intro, the falls and the sacrifice.
 
 ---
 
@@ -264,3 +276,9 @@ Sleep now… you can sleep now…
 | 4b | Bass | Heaviest possible |
 | 4c | Story | One man vs monsters/world, saves family, world watches, sacrifice |
 | 4d | Ending | Sacrifice → heartbeat stops → angel lament → final major chord (tears + elevation) |
+| 5a | Chant language | Aramaic (Syriac), not Latin |
+| 5b | Lyrics | Six lore words only: Qum, Gabbara, Hayye, Nuhra, Mawta, Shlama. No first person |
+| 5c | Female voice | Wordless angelic vocalise |
+| 5d | Battles | Fight to the beat, instrumental, fast and heavy |
+| 5e | Structure | 3 rounds: battle → hope lost → stronger/faster comeback, then sacrifice |
+| 5f | Working title | QUM |
