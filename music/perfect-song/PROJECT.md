@@ -1,5 +1,5 @@
 # The Perfect Song — Project File
-Status: **v0.7 — Headphone mix locked. Phase 8 (compile) open**
+Status: **v0.8 — COMPILED for Suno Free. Phase 9 (test) open**
 
 ---
 
@@ -159,6 +159,17 @@ Hidden arc in the words: **Arise → Hero → Life → Light → Death → Peace
 - **Binaural beats are now possible** (headphones only). Evidence is weak. **v1 skips them.** Optional A/B test in Phase 9: a faint beta-range layer (~15–20 Hz offset) under Build 3.
 - **Post-production tools (free):** Audacity (tempo ramps, EQ, loudness normalization to LUFS); optional free binaural panner plugin for the choir.
 
+### V. Suno Free plan: what changes
+| Item | Free-plan reality | Our move |
+|---|---|---|
+| **Ownership** | Songs made on Free are **non-commercial, owned by Suno**. Upgrading later does **not** retroactively grant rights to songs made while on Free | Use Free only to **test and perfect the prompt**. Once it's right, upgrade and **regenerate the final version** before any release |
+| **Credits** | Limited daily credits (historically ~50/day = ~5 generations = ~10 clips) | A fixed daily test protocol (below) so no credits are wasted |
+| **Model** | The Free tier may run an older model than paid. Style-field limits are shorter on older models (v3.5 ≈120 chars, v4 ≈200, v4.5+ ≈1000) | Two prompt versions: **FULL** (newest model) and **COMPACT** (≤200 chars) |
+| **Exclude Styles** | May not be available on Free | The COMPACT version folds the key negatives into the style text |
+| **Length** | Older models can cut off before 5:30 | If the song cuts off, use **Extend** from the last good moment with the remaining lyrics |
+| **Downloads** | Suno has been tightening downloads for Free accounts. **Verify** in your account whether download is allowed | If download is blocked, post-production (tempo ramps, mix, loudness) has to wait until the upgrade |
+| **Section tools** | Replace Section / Studio are paid features | Free = whole-song generations, judged by section |
+
 ### K. Suno constraints
 - **Style field:** ~1000 characters in v4.5/v5.
 - **Exclude Styles field:** used for negative prompts.
@@ -181,9 +192,9 @@ Hidden arc in the words: **Arise → Hero → Life → Light → Death → Peace
 | 5 | **Vocal architecture** | Aramaic monk choir ✅ · wordless angelic female vocalise ✅ · no lead singer ✅ | ✅ LOCKED |
 | 6 | **Message** | Six Aramaic lore words: Qum, Gabbara, Hayye, Nuhra, Mawta, Shlama | ✅ LOCKED |
 | 7 | **Sound design and mix** | Headphone master: centered heartbeat, saturated sub, surrounding choir, −10 LUFS | ✅ LOCKED |
-| 8 | **Compile** | Final Suno fields matched to Suno version/plan | 🔵 OPEN |
-| 9 | **Test and refine** | Generate variants, measure heart rate and your felt motivation (1–10), chills count, iterate | ⚪ |
-| 10 | **Release prep** (optional) | Originality check, Suno commercial terms, mastering, distribution | ⚪ |
+| 8 | **Compile** | FULL + COMPACT versions for Suno Free | ✅ DONE |
+| 9 | **Test and refine** | Daily protocol, score sheet, tune to v0.9 | 🔵 OPEN |
+| 10 | **Release prep** (optional) | Upgrade → regenerate final on paid plan → post-production → master → distribute | ⚪ |
 
 ---
 
@@ -291,6 +302,43 @@ KOOM!
 
 ---
 
+## 4B. FINAL COMPILED PACKAGE (v0.8)
+
+### FULL version (use if the model dropdown shows v4.5 / v5 or newer)
+- **Style:** the v0.7 Style field above (≈700 chars)
+- **Exclude Styles:** the v0.7 Exclude field above
+- **Lyrics:** the lyrics field above
+- **Title:** QUM
+
+### COMPACT version (use if the style field limits characters or there's no Exclude field)
+- **Style (≈195 chars):**
+```
+dark phonk techno, 140 BPM, C minor, crushing sub bass, heartbeat kick, Aramaic monk choir, wordless angelic female vocalise, escalating drops, tragic heroic finale, no rap, no pop
+```
+- **Lyrics:** same lyrics field. The section tags carry the structure.
+
+---
+
+## 4C. PHASE 9 — TEST PROTOCOL (daily, Free credits)
+
+**Setup:** headphones, a quiet room, your watch on, the volume limit set.
+
+1. Note your **resting heart rate** and **motivation (1–10)** before listening.
+2. Generate: **3× FULL** + **2× COMPACT** = 10 clips. If one prompt type fails to fit, put all 5 into the other.
+3. Listen to each clip once, all the way through. Score it:
+
+| Clip | Model / length | Intro meets me? (Y/N) | Build urgency 1–10 | Battle heaviness R1/R2/R3 1–10 | Falls feel like loss? (Y/N) | Chills count | Peak heart rate | Ending tears / moved 1–10 | Motivation after 1–10 | Best moment (timestamp) | Worst moment (timestamp) |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | | | | | | | | | | | |
+| 2 | | | | | | | | | | | |
+| … | | | | | | | | | | | |
+
+4. Report back the **top 2 clips' scores and the best/worst timestamps**. Prompt v0.9 will be tuned from them.
+
+**Win criteria:** motivation +3 or more · ≥3 chills · peak heart rate up 10+ bpm from rest · ending moved ≥7.
+
+---
+
 ## 5. DECISION LOG
 | # | Decision | Value |
 |---|---|---|
@@ -316,3 +364,4 @@ KOOM!
 | 6b | Key | C minor, Hijaz-flavored chant → final C major |
 | 6c | Cowbell | Yes, Round 3 only, dark, plays the angel motif |
 | 7 | Listening | Headphones → centered heartbeat, saturated sub, surrounding choir, −10 LUFS / −1 dBTP |
+| 8 | Suno plan | Free for testing. Upgrade + regenerate the final before any release |
