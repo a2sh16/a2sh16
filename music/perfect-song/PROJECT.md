@@ -1,5 +1,5 @@
 # The Perfect Song — Project File
-Status: **v1.0 — Classical golden-age Arabic poetry + single-genre heavy phonk. USE SECTION 4-NOW**
+Status: **v1.1 — Pivot to dark Middle Eastern deep house + hip hop/R&B, 3 phrases only. USE SECTION 4-NOW**
 
 ---
 
@@ -224,6 +224,19 @@ All the verses come from golden-age poets who died over 1,000 years ago, so they
 
 - **Hidden thread:** Build 1 and the Sacrifice come from the **same Mutanabbi ode**. The verse that sends him to the stars also tells him why death in a great cause is worth it.
 
+### Z. Why test 2 sounded "techno / jumpstyle" (and the pivot)
+- **Cause:** 150 BPM + distorted phonk kicks + "aggressive hard-hitting drums" pushes Suno toward hard dance and jumpstyle: hard kicks with an offbeat bass at high tempo.
+- **Target now:** **deep house groove (118–124 BPM) + hip-hop/R&B low end and swing**. Deep house sits low and rolling. The **sub-bass (30–60 Hz) is long and sustained**, felt in the chest, not punched. Hip-hop/R&B adds swing, 808 weight and soulful female runs.
+- **Middle Eastern deep house** is an established sound: Arabic vocals and Hijaz melodies over a deep house groove. It is the natural home for the chant + female vocalise.
+- **Tempo 122:** still inside the motivational 120–140 band (Karageorghis), with a deeper, heavier feel than 150.
+- **Words cut to 3 phrases.** Story told by the music.
+
+| Phrase | Source | Meaning | Where |
+|---|---|---|---|
+| أَلَا انْجَلِي | Imru' al-Qays | Lift away! (said to the long night) | Intro |
+| فَلَا تَقْنَعْ بِمَا دُونَ النُّجُومِ | al-Mutanabbi | Settle for nothing below the stars | The hook in every build |
+| عُلُوٌّ فِي الحَيَاةِ وَفِي المَمَاتِ | al-Anbari | Lofty in life and in death | Exit |
+
 ## 2. OUTLINE — Build phases
 
 | # | Phase | What we decide | Status |
@@ -400,61 +413,52 @@ epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, C minor, 
 
 ---
 
-## 4-NOW. CURRENT PROMPT — v1.0 (USE THIS; all earlier prompts superseded)
+## 4-NOW. CURRENT PROMPT — v1.1 (USE THIS; all earlier prompts superseded)
 
 **Phone settings:** Model v6-mini · **Instrumental OFF** · **Variety: far left (lowest)** · no magic wand · Title: QUM
 
 **Style:**
 ```
-heavy dark phonk, 150 BPM, pounding heartbeat kick drum, crushing distorted 808 bass, aggressive hard-hitting drums, relentless driving energy, deep Arabic male choir chanting classical poetry in maqam Hijaz, haunting wordless female vocalise, C minor, massive bass drops, consistent heavy groove, no rap, no pop, no orchestral, no soft ambient, no piano, no autotune, no fade out
+dark Middle Eastern deep house, 122 BPM, deep rolling sub bass, heavy 808 low end, heartbeat kick, hip hop drums with swing, soulful R&B female vocal runs, wordless, deep male Arabic chant, maqam Hijaz, C minor, hypnotic groove, tension builds and deep bass drops, no techno, no jumpstyle, no hardstyle, no phonk, no EDM, no pop, no fade out
 ```
 
 **Lyrics:**
 ```
-[Intro – pounding heartbeat kick, low 808 drone, deep Arabic male choir chanting]
-أَلَا أَيُّهَا اللَّيْلُ الطَّوِيلُ أَلَا انْجَلِي
-أَلَا أَيُّهَا اللَّيْلُ الطَّوِيلُ أَلَا انْجَلِي
-[Wordless female vocalise]
-(Ahhh…)
+[Intro – heartbeat kick, deep sub bass, deep male Arabic chant]
+أَلَا انْجَلِي
+أَلَا انْجَلِي
+[Soulful female vocalise, wordless]
+(Ooh… ahh…)
 
-[Build – rising, snare roll, choir intensifying]
-إِذَا غَامَرْتَ فِي شَرَفٍ مَرُومِ
+[Build – rising, choir]
 فَلَا تَقْنَعْ بِمَا دُونَ النُّجُومِ
 [Silence]
 
-[Drop – heavy phonk, pounding heartbeat kick, crushing distorted 808s]
-السَّيْفُ أَصْدَقُ إِنْبَاءً مِنَ الكُتُبِ
+[Drop – deep house groove, heavy sub bass, hip hop drums]
 [Instrumental]
 
-[Break – bass cut, heartbeat only, wordless female vocalise]
-(Ohhh…)
+[Break – bass cut, heartbeat only, soulful female vocalise]
+(Ooh…)
 
-[Build – heavier, choir chanting]
-وَإِذَا كَانَتِ النُّفُوسُ كِبَارًا
-تَعِبَتْ فِي مُرَادِهَا الأَجْسَامُ
+[Build – rising, choir]
+فَلَا تَقْنَعْ بِمَا دُونَ النُّجُومِ
 [Silence]
 
-[Drop – heavier phonk, harder 808s]
+[Drop – deeper, heavier sub bass]
 [Instrumental]
 
 [Break – near silence, faint heartbeat]
-(Ahhh…)
+(Ahh…)
 
-[Build – maximum intensity, full choir]
-عَلَى قَدْرِ أَهْلِ العَزْمِ تَأْتِي العَزَائِمُ
-عَلَى قَدْرِ أَهْلِ العَزْمِ تَأْتِي العَزَائِمُ
+[Build – full choir, maximum intensity]
+فَلَا تَقْنَعْ بِمَا دُونَ النُّجُومِ
 [Silence]
 
-[Drop – heaviest phonk, distorted 808s, choir war cries]
+[Drop – deepest, heaviest bass]
 [Instrumental]
 
-[Sacrifice – everything stops, heartbeat alone, slowing]
-فَطَعْمُ المَوْتِ فِي أَمْرٍ حَقِيرٍ
-كَطَعْمِ المَوْتِ فِي أَمْرٍ عَظِيمِ
-
-[Outro – wordless female vocalise, full choir, slow, final C major chord]
+[Outro – heartbeat slowing, soulful female vocalise, choir, final major chord]
 عُلُوٌّ فِي الحَيَاةِ وَفِي المَمَاتِ
-لَحَقٌّ أَنْتَ إِحْدَى المُعْجِزَاتِ
 [Heartbeat stops]
 [End]
 ```
@@ -492,3 +496,6 @@ heavy dark phonk, 150 BPM, pounding heartbeat kick drum, crushing distorted 808 
 | 10a | Lyrics | Classical golden-age verses: Imru' al-Qays, al-Mutanabbi, Abu Tammam, al-Anbari. Replaces the v0.9 Arabic lines |
 | 10b | Style | **Single genre: heavy dark phonk, 150 BPM**, heartbeat kick front-loaded. Reverses 6a (techno→hybrid→phonk) and the 140 base. Escalation now by intensity only |
 | 10c | Variety | Lowest setting |
+| 11a | Genre | **Dark Middle Eastern deep house + hip hop/R&B low end, 122 BPM**. Reverses 10b (heavy phonk 150) |
+| 11b | Words | 3 phrases only: أَلَا انْجَلِي · فَلَا تَقْنَعْ بِمَا دُونَ النُّجُومِ · عُلُوٌّ فِي الحَيَاةِ وَفِي المَمَاتِ |
+| 11c | Female voice | Soulful R&B runs, wordless |
