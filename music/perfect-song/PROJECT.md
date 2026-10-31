@@ -1,5 +1,5 @@
 # The Perfect Song — Project File
-Status: **v0.2 — Purpose locked, Phase 2 (Reference DNA) open**
+Status: **v0.3 — Reference DNA locked, concept "WAKE UP" formed, Phase 3 open**
 
 ---
 
@@ -8,6 +8,8 @@ Status: **v0.2 — Purpose locked, Phase 2 (Reference DNA) open**
 - **Listener:** Ahmad (personal). Possible public release later.
 - **Sonic world:** techno + Gregorian chant + sampled ethereal / angelic female vocals
 - **Method:** pull the best elements from Ahmad's reference songs into one original track
+- **Concept:** **"WAKE UP" (working Latin title: *EXPERGISCERE*)**. A sleeping heart is called awake by an angelic voice. The monks' urgency rises until the drop, which is the moment of action.
+- **Tempo backbone:** **140 BPM**. The intro heartbeat plays in half-time (**70 BPM**, a resting heart rate) and doubles to the full 140 at the drop, so the heart "rises" with the music. 140 also fits both techno and phonk.
 
 ---
 
@@ -67,6 +69,14 @@ Evidence is graded: **[STRONG]** = repeated peer-reviewed findings · **[MODERAT
 ### J. What kills the effect (avoid list)
 Avoid aggressive distortion that pushes toward anger instead of drive, cluttered mids, a monotone loop with no arc, a drop with no build, abrupt jarring cuts in the intro, harsh hyper-compression, and lyrics of despair.
 
+### L. Reference DNA analysis
+| Reference | Element Ahmad loves | Translated into sound | Body mechanism |
+|---|---|---|---|
+| All the Love | Heartbeat-style bass, female vocals | Double-thump "lub-dub" sub kick, soulful airy female voice | Heartbeat sounds pull attention inward and entrain the pulse. False or accelerated heartbeat cues raise arousal (Valins 1966 and later interoception studies) [MODERATE] |
+| Moment of Peace | Chant-led build where urgency rises until the drop = act | Monk choir build: rising pitch, rhythm getting denser, crescendo, risers, then a hard drop | Dopamine during anticipation and again at release [STRONG]. Urgency comes from accelerating subdivisions and rising pitch |
+| The Long Song ("wake up") | A group joins on the hook, a stretched pleading girl voice | Call and response: a solo female sings a long sustained "wake up", then the full choir answers in unison | A solo voice → group entry is a top chills trigger [STRONG]. Social unison triggers a "tribe/rally" feeling |
+| Phonk | Heavy build → heavy drop | Saturated/distorted 808 bass, hard-hitting drums, an optional cowbell lead, a half-time heavy feel | Bass = feeling of power (Hsu 2015) [MODERATE→STRONG]. The drop gives a physical impact |
+
 ### K. Suno constraints
 - **Style field:** ~1000 characters in v4.5/v5.
 - **Exclude Styles field:** used for negative prompts.
@@ -83,8 +93,8 @@ Avoid aggressive distortion that pushes toward anger instead of drive, cluttered
 | # | Phase | What we decide | Status |
 |---|---|---|---|
 | 1 | **Purpose** | Calm or anxious → excited and motivated | ✅ LOCKED |
-| 2 | **Reference DNA** | Ahmad's songs + the exact element he loves in each | 🔵 OPEN |
-| 3 | **Sonic physics** | BPM, key/mode, groove, bass character | ⚪ |
+| 2 | **Reference DNA** | Heartbeat bass · chant urgency build · "wake up" call-and-response · phonk drop | ✅ LOCKED |
+| 3 | **Sonic physics** | 140 BPM (70 half-time heartbeat) ✅ · drop flavor 🔵 · key/mode ⚪ | 🔵 OPEN |
 | 4 | **Arc and structure** | The journey through the song: intro → builds → breakdown → drops → outro, and length | ⚪ |
 | 5 | **Vocal architecture** | Chant (male choir, Latin), angelic female layer, lead voice yes/no | ⚪ |
 | 6 | **Message** | Theme, language (Latin / English / mix), lyrics | ⚪ |
@@ -98,50 +108,83 @@ Avoid aggressive distortion that pushes toward anger instead of drive, cluttered
 ## 3. MAP — Body-effect levers → song decisions
 
 ```
-CALM/ANXIOUS ──► EXCITED/MOTIVATED
+STORY:  SLEEP ──────► CALL ──────► URGENCY ──────► ACTION ──────► UNSTOPPABLE
+TIME:   0:00         0:30         0:50            1:20            2:10 → 3:10 → 4:00
+HEART:  70 (half)    70           70→140 feel     140             break → 140 phonk
 │
-├── AROUSAL ↑ ──┬── TEMPO ────── entrainment ───────── 120–140 BPM techno pulse
-│               ├── DENSITY ──── energy build ──────── layers + filter opens
-│               ├── BASS ─────── felt power ────────── rolling sub/bassline
-│               └── GROOVE ───── urge to move ──────── moderate syncopation
-│
-├── VALENCE ↑ ──┬── MODE ─────── dark → hopeful ────── Aeolian/Dorian → bright Dorian
-│               ├── HIGH VOICE ─ uplift/transcend ─── angelic female layer
-│               └── WORDS ────── meaning ───────────── triumph, rising, light
-│
-├── DOPAMINE ───┬── BUILD ────── anticipation ──────── risers, snare rolls, tension
-│               ├── DROP ─────── peak release ──────── full kick + bass + choir
-│               └── CHILLS ───── texture surprise ─── solo voice entry, choir swell
-│
-└── CENTERING ──┬── CHANT ────── breath slowing ────── intro + breakdown
-                └── DRONE ────── grounding ─────────── low choir / pad bed
+├── HEARTBEAT BASS ── entrainment / interoception ── lub-dub sub, half-time → full-time
+├── CHANT BUILD ───── anticipation dopamine ──────── rising monks, denser rhythm, risers
+├── "WAKE UP" CALL ── chills / rally ─────────────── stretched solo female → choir answers
+├── PHONK DROP ────── power / impact ─────────────── distorted 808, hard drums
+├── TECHNO DRIVE ──── movement / groove ──────────── rolling bass, four-on-the-floor, offbeat hats
+├── MODE ──────────── dark → hopeful ─────────────── minor/Dorian, lifts at final drop
+└── ENDING ────────── leave motivated ────────────── NO calm-down fade; ends on peak / hard stop
 ```
+
+### Arc v0.3 (~4:30)
+| Time | Section | Content | Target state |
+|---|---|---|---|
+| 0:00 | Intro | Heartbeat sub at 70, low drone, deep monk chant "Expergiscere" | Meet calm or anxious |
+| 0:30 | The Call | Distant stretched female "wake up…", heavy reverb | Attention, longing |
+| 0:50 | Build 1 | Chant rises, heartbeat doubles, risers, snare roll | Urgency |
+| 1:20 | Drop 1 (techno) | Four-on-the-floor kick, rolling bass, female vocal chops | Movement |
+| 2:10 | Breakdown | One beat of silence → solo female "wake up" → full choir answers | Chills |
+| 2:40 | Build 2 | Max chant urgency, "Nunc age!" (now act!), pitch riser | Peak anticipation |
+| 3:10 | Drop 2 (heaviest) | Full force: choir + angelic voice + heaviest bass | Action, power |
+| 4:00 | Outro | Heartbeat at 140 stays, chant hits a final chord, hard stop | Leave charged |
 
 ---
 
-## 4. EVOLVING SUNO PROMPT — v0.2
+## 4. EVOLVING SUNO PROMPT — v0.3
 
 **Style field:**
 ```
-melodic techno, Gregorian chant, ethereal angelic female vocals, [BPM TBD] BPM, [KEY/MODE TBD], deep male monastic choir, rolling hypnotic bassline, driving four-on-the-floor kick, syncopated percussion, cathedral reverb, slow-building tension, euphoric drop, dark-to-uplifting progression, cinematic, spacious, [REFERENCE ELEMENTS TBD]
+dark melodic techno phonk hybrid, 140 BPM, heartbeat sub bass pulse, Gregorian chant build-up, deep male monastic choir, ethereal angelic female vocals, stretched pleading female "wake up" hook, call and response with full choir, rising urgency, tension risers and snare rolls, explosive heavy drop, saturated 808 bass, driving four-on-the-floor kick, offbeat hi-hats, cathedral reverb, minor key lifting to hopeful, cinematic, epic, relentless energy
 ```
 
 **Exclude Styles field:**
 ```
-distortion, harsh, aggressive, screaming, rap, trap, dubstep wobble, cheesy EDM, pop vocal, autotune, abrupt transitions, cluttered
+harsh noise, screaming, rap verse, pop vocal, cheesy EDM, dubstep wobble, autotune, lo-fi, calm ending, fade out, cluttered mix
 ```
 
-**Lyrics field (structure skeleton):**
+**Lyrics field:**
 ```
-[Intro – Gregorian Chant, no drums]
-[Build – kick enters, filter opening]
-[Female Vocal – ethereal]
-[Drop]
-[Breakdown – choir and angelic vocal, no kick]
-[Build]
-[Drop – full choir + female vocal + bass]
-[Outro]
+[Intro – heartbeat bass, low drone, Gregorian chant, no drums]
+(Expergiscere… expergiscere…)
+(Cor meum dormit)
+
+[The Call – distant ethereal female vocal, heavy reverb]
+Wake… uuup…
+Wake up…
+
+[Build – chant rising, heartbeat doubling, risers, snare roll]
+(Surge, surge, tempus est)
+(Surge, surge, tempus est)
+(Lux oritur!)
+
+[Drop – melodic techno, rolling bass, female vocal chops]
+
+[Breakdown – silence, then solo female vocal]
+Wake… up…
+[Full choir answers]
+WAKE UP!
+[Solo female]
+Wake… up…
+[Full choir answers]
+WAKE UP!
+
+[Build – maximum urgency, choir crescendo, pitch riser]
+(Cor meum ardet)
+(Nunc age! Nunc age!)
+NUNC AGE!
+
+[Drop – heaviest, choir and angelic vocal over massive bass]
+
+[Outro – heartbeat bass, final choir chord]
+(Expergiscere.)
+[End – hard stop]
 ```
+*Latin key:* Expergiscere = wake up · Cor meum dormit = my heart sleeps · Surge, tempus est = rise, it is time · Lux oritur = the light is rising · Cor meum ardet = my heart burns · Nunc age = now act. These are original lines, not liturgical text, so the track stays non-religious and the lyrics are yours.
 
 ---
 
@@ -152,3 +195,7 @@ distortion, harsh, aggressive, screaming, rap, trap, dubstep wobble, cheesy EDM,
 | 1b | Audience | Personal, possible public release |
 | 1c | Genre world | Techno + Gregorian chant + angelic female vocals |
 | 1d | Frame | Not religiously driven |
+| 2 | References | All the Love (heartbeat bass, female vox) · Moment of Peace (chant urgency build) · The Long Song ("wake up" call-and-response) · Phonk (heavy drop) |
+| 3a | Tempo | 140 BPM, intro heartbeat half-time 70 |
+| 3b | Concept | "WAKE UP" / *Expergiscere* |
+| 3c | Ending | No calm-down, end on peak |
