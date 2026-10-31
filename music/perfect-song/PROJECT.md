@@ -1,5 +1,13 @@
 # The Perfect Song — Project File
-Status: **v0.1 — Research complete, Phase 1 open**
+Status: **v0.2 — Purpose locked, Phase 2 (Reference DNA) open**
+
+---
+
+## 0. LOCKED BRIEF
+- **Effect:** calm or anxious → excited and motivated
+- **Listener:** Ahmad (personal). Possible public release later.
+- **Sonic world:** techno + Gregorian chant + sampled ethereal / angelic female vocals
+- **Method:** pull the best elements from Ahmad's reference songs into one original track
 
 ---
 
@@ -7,51 +15,66 @@ Status: **v0.1 — Research complete, Phase 1 open**
 
 Evidence is graded: **[STRONG]** = repeated peer-reviewed findings · **[MODERATE]** = some studies, smaller samples · **[WEAK]** = popular claim, little or poor evidence.
 
-### A. Tempo and rhythm (the biggest lever)
-- **Entrainment [STRONG]:** The body syncs to an external pulse. Heart rate, breathing and movement drift toward the beat.
-- **Slow tempo calms you [STRONG]:** Bernardi et al. (2006, *Heart*): slow music lowered heart rate, blood pressure and breathing rate. Fast tempo raised them. **Silences and pauses relaxed people even more than slow music did.**
-- **The 10-second wave [MODERATE]:** Bernardi (2009, *Circulation*): swells and fades (crescendo/decrescendo) on a cycle of about 10 seconds made blood pressure and heart rate rise and fall with them. 10 seconds is ~6 breaths per minute, the resonance rate that gives the best heart-rate variability (HRV) and vagal tone.
-- **Gradual slowing [MODERATE]:** In the "Weightless" study (Mindlab 2011, not peer-reviewed), the tempo slid from about 60 to 50 BPM, there was no repeating melody, and the low end was sustained. It reported large drops in anxiety.
+### A. Arousal vs mood: the key insight for this brief
+- **Two separate dials:** Emotion runs on **arousal** (energy) and **valence** (positive or negative) (Russell's circumplex model).
+  - Calm → excited means **raising arousal**.
+  - Anxious → excited means **keeping arousal high but flipping valence** from negative to positive. Anxiety and excitement share the same physiology. Reappraising anxiety as excitement improves performance (Brooks 2014, Harvard).
+- **Design consequence:** the track must work for both starting points.
+  - Open with a **mid-energy, slightly tense, spacious section**. It meets an anxious listener without startling a calm one.
+  - Then **raise the energy and brighten the harmony** together.
 
-### B. Harmony and tone
-- **Consonance and reward [STRONG]:** Blood & Zatorre (2001) and Salimpoor (2011): music people love releases dopamine and lights up reward circuits. Musical "chills" peak just after the build-up of anticipation resolves.
-- **Dissonance [STRONG]:** Unresolved, harsh dissonance turns on threat and stress areas such as the amygdala and raises arousal. A little tension that then resolves feels good. Constant tension wears people out.
-- **Low frequencies and drones [MODERATE]:** Sustained low tones, humming and drones stimulate the vagus nerve through the vibrating larynx and chest, and they ground the listener.
-- **The iso principle [STRONG, standard clinical practice]:** Music therapists **start at the listener's current state and then lead it gradually** to the target state. A song that tries to force calm from the first bar does not work as well.
+### B. Tempo and rhythm
+- **Entrainment [STRONG]:** Heart rate, breathing and movement drift toward the beat.
+- **Motivational tempo band [STRONG]:** Karageorghis (Brunel research, 20+ years): the motivational sweet spot is **~120–140 BPM**, peaking at ~125–135 for most people. Melodic and peak-time techno sits exactly here.
+- **Gradual tempo or energy rise [MODERATE]:** The rise pulls the body upward (the iso principle in reverse). Suno can't automate a BPM change, so the "rise" is built through **density, filter openings and layering**, not literal tempo.
+- **Groove [STRONG]:** Witek (2014): a **moderate amount of syncopation** produces the strongest urge to move and the most pleasure. Too straight is boring, too complex is confusing. Offbeat hats and syncopated percussion over a four-on-the-floor kick hit the sweet spot.
 
-### C. Frequency and tuning claims
-- **432 Hz vs 440 Hz [WEAK]:** One small pilot (Calamassi 2019) found slightly lower heart rate. Not replicated. Fine as an aesthetic choice, not proven as medicine.
-- **Solfeggio / 528 Hz [WEAK]:** Very little evidence (one small Akimoto 2018 study). Mostly marketing.
-- **Binaural beats [WEAK→MODERATE]:** Small effects on anxiety (Garcia-Argibay 2019 meta-analysis). They only work on headphones, and **Suno cannot reliably produce them**. You would add them in post-production.
+### C. Bass and power
+- **"Power songs" [MODERATE→STRONG]:** Hsu et al. (2015, *Social Psychological & Personality Science*): **music heavy in bass made people feel more powerful and dominant** and made them act more assertively.
+- **Physical bass [STRONG]:** Low frequencies (40–100 Hz) are felt in the body, not only heard. A rolling bassline gives the physical push.
 
-### D. Loudness and production
-- **Over-compressed "loudness war" mixing [MODERATE]:** Causes listener fatigue. **A wide dynamic range (real soft and loud) is more restorative.**
-- **Hearing safety [STRONG]:** Long listening above ~85 dB causes damage.
+### D. Build-ups, drops and chills
+- **Anticipation → release [STRONG]:** Salimpoor (2011): dopamine is released **during the anticipation** (caudate) and again **at the peak** (nucleus accumbens). The techno build → break → drop structure is close to a direct dopamine engine.
+- **Chills triggers [STRONG]:**
+  - a sudden texture change, such as a solo voice entering
+  - a new layer coming in, such as a choir
+  - a dynamic surge
+  - an unexpected harmonic shift
+  - a high voice emerging over a low drone
 
-### E. Voice and words
-- **Lyrics carry the meaning [STRONG]:** The meaning of the words shifts mood independently of the sound. Words of gratitude, meaning and hope have measurably positive effects.
-- **The human voice [STRONG]:** Humans respond more strongly to a voice than to any instrument. A warm, breathy, lower-register voice soothes. A strained, screamed voice alarms.
-- **Quran recitation studies [MODERATE]:** Several clinical studies, mostly from Iran, Malaysia and Saudi Arabia, show reduced anxiety and better vital signs when people listen to tajweed. It is melodic voice with no instruments.
+  Angelic female vocals over Gregorian chant over a techno drop combines several of these at once.
 
-### F. The heritage behind your theory
-Your theory has a long scholarly history:
-- **Al-Kindi (9th c.):** linked oud strings to the four humors and to emotional states.
-- **Al-Farabi, *Kitab al-Musiqa al-Kabir*:** wrote on music's power to calm, move or sadden.
-- **Ibn Sina:** used music in his medical practice.
-- **Ikhwan al-Safa:** taught that cosmic harmony is mirrored in sound.
-- **Ottoman bimaristans** (Edirne, Sultan Bayezid II complex, 1488): **treated patients with specific maqamat**, for example Rast for joy and calm, Hijaz for humility, and Saba for spirit and devotion.
-- **Western parallel:** Pythagoras and the "music of the spheres".
+### E. Gregorian chant
+- **Modal harmony:** Chant uses church modes. **Dorian** is minor but with a hopeful raised 6th, the ideal "anxious → uplifted" mode. **Mixolydian** is bright and driving. Aeolian is darker.
+- **Long phrases [MODERATE]:** Bernardi (2001, *BMJ*): reciting chant-like prayer (the Ave Maria) and mantras slowed breathing to ~6 breaths per minute and synchronized cardiovascular rhythms. Use chant in the **intro and the breakdown** to settle and center the listener before the lift.
+- **Male low choir:** sits in the chest and resonance range, which grounds the listener and lends an ancient, sacred weight.
 
-### G. What makes music "bad" for the body (avoid list)
-Avoid sudden jarring transients, constant unresolved dissonance, hyper-compressed walls of sound, a frantic tempo with no release, lyrics of violence, despair or lust, harsh distorted vocals, and engineered addictive hooks with no substance.
+### F. Ethereal / angelic female vocals
+- **Register contrast:** Pitch height reads as "uplift, light, transcendence". Placing a **high female voice over a low male chant** gives maximum contrast, and the contrast drives chills.
+- **Texture:** breathy, airy, long reverb tails, wordless vowels ("ah", "oo") or sparse words.
 
-### H. Suno constraints
-- **Style field:** v4.5/v5 allows up to ~1000 characters.
+### G. Harmony and tension
+- **Consonance and reward [STRONG]:** Resolved harmony triggers reward. Tension that is built and then resolved is the engine.
+- **Key move [MODERATE]:** shifting from minor (Aeolian/Dorian) in the intro to brighter (Dorian or relative major) at the peak mirrors anxiety → motivation.
+
+### H. Loudness and production
+- **Dynamic contrast [MODERATE]:** The drop only hits if the breakdown is genuinely quiet. Avoid a flat wall of sound.
+- **Hearing safety [STRONG]:** Long listening above ~85 dB causes damage. Motivational music tempts people to play it loud.
+
+### I. Frequency claims
+- **432 Hz / 528 Hz / binaural beats [WEAK]:** Optional aesthetic layers added in post-production. Suno cannot do them.
+
+### J. What kills the effect (avoid list)
+Avoid aggressive distortion that pushes toward anger instead of drive, cluttered mids, a monotone loop with no arc, a drop with no build, abrupt jarring cuts in the intro, harsh hyper-compression, and lyrics of despair.
+
+### K. Suno constraints
+- **Style field:** ~1000 characters in v4.5/v5.
 - **Exclude Styles field:** used for negative prompts.
-- **Lyrics field:** accepts metatags such as `[Intro] [Verse] [Chorus] [Bridge] [Outro] [Instrumental] [Humming] [Soft] [Build] [Silence]`.
-- **What works roughly:** BPM, key, mood and instrument names.
-- **Not controllable in Suno:** exact Hz tuning, binaural beats and precise tempo curves. These need post-processing in a DAW (free option: Audacity).
-- **Do not name real artists.** Suno blocks it.
+- **Lyrics field:** use metatags such as `[Intro] [Build] [Drop] [Breakdown] [Choir] [Chant] [Female Vocal] [Instrumental] [Silence] [Outro]`.
+- **Chant text:** works best written out in Latin.
+- **Not controllable:** exact BPM curves, tuning and binaural beats. These need a DAW.
+- **Real artists and songs:** they can't be named, and copyrighted audio can't be uploaded. References are translated into **descriptive elements**.
+- **Public release:** Suno's paid plans grant commercial rights to generated output. Confirm the current terms before release.
 
 ---
 
@@ -59,55 +82,64 @@ Avoid sudden jarring transients, constant unresolved dissonance, hyper-compresse
 
 | # | Phase | What we decide | Status |
 |---|---|---|---|
-| 1 | **Purpose** | The exact effect on the listener (state A → state B) | 🔵 OPEN |
-| 2 | **Sharia palette** | Vocals only / vocals + daf / other instruments | ⚪ |
-| 3 | **Sonic physics** | BPM and tempo curve, key, mode or maqam, tuning | ⚪ |
-| 4 | **Arc and structure** | Iso-principle journey, sections, length, silences | ⚪ |
-| 5 | **Message** | Theme, language (Arabic / English / both), lyrics | ⚪ |
-| 6 | **Voice** | Gender, register, texture, harmonies, humming | ⚪ |
-| 7 | **Production** | Dynamics, low end, space/reverb, mix philosophy | ⚪ |
+| 1 | **Purpose** | Calm or anxious → excited and motivated | ✅ LOCKED |
+| 2 | **Reference DNA** | Ahmad's songs + the exact element he loves in each | 🔵 OPEN |
+| 3 | **Sonic physics** | BPM, key/mode, groove, bass character | ⚪ |
+| 4 | **Arc and structure** | The journey through the song: intro → builds → breakdown → drops → outro, and length | ⚪ |
+| 5 | **Vocal architecture** | Chant (male choir, Latin), angelic female layer, lead voice yes/no | ⚪ |
+| 6 | **Message** | Theme, language (Latin / English / mix), lyrics | ⚪ |
+| 7 | **Sound design and mix** | Synths, kick, sidechain, reverb space, dynamics | ⚪ |
 | 8 | **Compile** | Final Suno Style + Exclude + Lyrics fields | ⚪ |
-| 9 | **Test and refine** | Generate, measure HRV/heart rate on your watch, iterate, post-process (432 Hz or binaural if wanted) | ⚪ |
+| 9 | **Test and refine** | Generate variants, measure heart rate and your felt motivation (1–10), chills count, iterate | ⚪ |
+| 10 | **Release prep** (optional) | Originality check, Suno commercial terms, mastering, distribution | ⚪ |
 
 ---
 
 ## 3. MAP — Body-effect levers → song decisions
 
 ```
-TARGET EFFECT ──┬── TEMPO ─────── entrainment of heart/breath ── BPM + gradual curve
-                ├── 10s SWELLS ── baroreflex / HRV resonance ── dynamic waves, pauses
-                ├── HARMONY ───── reward vs threat circuits ── consonance, resolved tension
-                ├── MODE/MAQAM ── emotional colour ─────────── Rast / Bayati / Saba / Hijaz / major / Dorian
-                ├── LOW END ───── vagal grounding ──────────── drones, humming, warm bass voice
-                ├── VOICE ─────── strongest human response ── warm, breathy, unforced
-                ├── WORDS ─────── meaning → mood ──────────── dhikr, gratitude, hope
-                ├── DYNAMICS ──── fatigue vs restoration ──── wide range, no brick-wall
-                └── ARC ───────── iso principle ───────────── meet state → guide → land
+CALM/ANXIOUS ──► EXCITED/MOTIVATED
+│
+├── AROUSAL ↑ ──┬── TEMPO ────── entrainment ───────── 120–140 BPM techno pulse
+│               ├── DENSITY ──── energy build ──────── layers + filter opens
+│               ├── BASS ─────── felt power ────────── rolling sub/bassline
+│               └── GROOVE ───── urge to move ──────── moderate syncopation
+│
+├── VALENCE ↑ ──┬── MODE ─────── dark → hopeful ────── Aeolian/Dorian → bright Dorian
+│               ├── HIGH VOICE ─ uplift/transcend ─── angelic female layer
+│               └── WORDS ────── meaning ───────────── triumph, rising, light
+│
+├── DOPAMINE ───┬── BUILD ────── anticipation ──────── risers, snare rolls, tension
+│               ├── DROP ─────── peak release ──────── full kick + bass + choir
+│               └── CHILLS ───── texture surprise ─── solo voice entry, choir swell
+│
+└── CENTERING ──┬── CHANT ────── breath slowing ────── intro + breakdown
+                └── DRONE ────── grounding ─────────── low choir / pad bed
 ```
 
 ---
 
-## 4. EVOLVING SUNO PROMPT — v0.1 (skeleton)
+## 4. EVOLVING SUNO PROMPT — v0.2
 
 **Style field:**
 ```
-[PURPOSE TBD], [GENRE TBD], [BPM TBD] BPM gradually slowing, [KEY/MAQAM TBD], warm intimate vocals, wide dynamic range, gentle swelling and fading phrases, deep sustained low drone, consonant resolved harmony, spacious natural reverb, unhurried, breathing space between phrases
+melodic techno, Gregorian chant, ethereal angelic female vocals, [BPM TBD] BPM, [KEY/MODE TBD], deep male monastic choir, rolling hypnotic bassline, driving four-on-the-floor kick, syncopated percussion, cathedral reverb, slow-building tension, euphoric drop, dark-to-uplifting progression, cinematic, spacious, [REFERENCE ELEMENTS TBD]
 ```
 
 **Exclude Styles field:**
 ```
-distortion, harsh, aggressive, screaming, heavy compression, EDM drop, trap hi-hats, abrupt transitions, autotune
+distortion, harsh, aggressive, screaming, rap, trap, dubstep wobble, cheesy EDM, pop vocal, autotune, abrupt transitions, cluttered
 ```
 
-**Lyrics field:**
+**Lyrics field (structure skeleton):**
 ```
-[Intro]
-[Verse 1]
-[Chorus]
-[Verse 2]
-[Bridge]
-[Silence]
-[Final Chorus]
+[Intro – Gregorian Chant, no drums]
+[Build – kick enters, filter opening]
+[Female Vocal – ethereal]
+[Drop]
+[Breakdown – choir and angelic vocal, no kick]
+[Build]
+[Drop – full choir + female vocal + bass]
 [Outro]
 ```
 
@@ -116,4 +148,7 @@ distortion, harsh, aggressive, screaming, heavy compression, EDM drop, trap hi-h
 ## 5. DECISION LOG
 | # | Decision | Value |
 |---|---|---|
-| — | — | — |
+| 1 | Effect | Calm/anxious → excited and motivated |
+| 1b | Audience | Personal, possible public release |
+| 1c | Genre world | Techno + Gregorian chant + angelic female vocals |
+| 1d | Frame | Not religiously driven |
