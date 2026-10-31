@@ -1,5 +1,5 @@
 # The Perfect Song — Project File
-Status: **v0.5 — Aramaic chants, minimal lore words, wordless angel, fight-to-the-beat cycles. Phase 3 open**
+Status: **v0.6 — Round escalation, key and cowbell locked. Phase 7 (sound design and mix) open**
 
 ---
 
@@ -129,6 +129,20 @@ Hidden arc in the words: **Arise → Hero → Life → Light → Death → Peace
 - **No words, more emotion [MODERATE]:** without words the listener projects their own meaning onto the voice, and the brain processes it purely as emotion. This is the "angel" effect.
 - **In Suno:** write vowels in parentheses, e.g. `(ahhh)`, `(ooh)`, and add "wordless vocalise" to the Style field.
 
+### S. Key: C minor → C major
+- **Struggle to triumph:** C minor carries a long-standing association with heroic struggle and fate (Beethoven's 5th, the Pathétique, Coriolan). Beethoven's 5th itself **moves from C minor to C major**, the classic "struggle → transcendence" arc. Our finale does the same.
+- **Hijaz color:** the monks' chant uses a **Phrygian-dominant / maqam Hijaz** flavor (C–Db–E–F–G–Ab–Bb). It sounds ancient and Levantine and matches the Aramaic.
+- **Final chord:** C major (Picardy third) at the hero's exit.
+
+### T. Escalation by genre (decision A)
+| Round | Genre | BPM (post-production) | Signature |
+|---|---|---|---|
+| 1 | Dark rolling techno | 140 | Hypnotic rolling bass, four-on-the-floor, offbeat hats |
+| 2 | Techno-phonk hybrid | ~147 | Techno groove + saturated 808 weight, harder snares |
+| 3 | Full phonk | ~154 | Distorted 808s, heaviest hits, **dark detuned cowbell playing the angel's melody** |
+
+- **Cowbell decision:** **YES, Round 3 only**, dark, detuned and in key. It plays the angel's vocalise motif, so the family's voice becomes his weapon in the final battle. Reversible in testing.
+
 ### K. Suno constraints
 - **Style field:** ~1000 characters in v4.5/v5.
 - **Exclude Styles field:** used for negative prompts.
@@ -146,11 +160,11 @@ Hidden arc in the words: **Arise → Hero → Life → Light → Death → Peace
 |---|---|---|---|
 | 1 | **Purpose** | Calm or anxious → excited and motivated | ✅ LOCKED |
 | 2 | **Reference DNA** | Heartbeat bass · chant urgency build · "wake up" call-and-response · accelerando · long build→drop · phonk weight | 🟡 OPEN to more songs |
-| 3 | **Sonic physics** | 140 BPM base ✅ · faster each comeback ✅ · heaviest bass ✅ · **drop flavor per round** 🔵 | 🔵 OPEN |
+| 3 | **Sonic physics** | 140 → ~147 → ~154 ✅ · techno → hybrid → phonk ✅ · C minor + Hijaz chant → C major ✅ · cowbell R3 ✅ | ✅ LOCKED |
 | 4 | **Arc and structure** | The journey through the song: intro → builds → breakdown → drops → outro, and length | ⚪ |
 | 5 | **Vocal architecture** | Aramaic monk choir ✅ · wordless angelic female vocalise ✅ · no lead singer ✅ | ✅ LOCKED |
 | 6 | **Message** | Six Aramaic lore words: Qum, Gabbara, Hayye, Nuhra, Mawta, Shlama | ✅ LOCKED |
-| 7 | **Sound design and mix** | Synths, kick, sidechain, reverb space, dynamics | ⚪ |
+| 7 | **Sound design and mix** | Listening context → mix targets | 🔵 OPEN |
 | 8 | **Compile** | Final Suno Style + Exclude + Lyrics fields | ⚪ |
 | 9 | **Test and refine** | Generate variants, measure heart rate and your felt motivation (1–10), chills count, iterate | ⚪ |
 | 10 | **Release prep** (optional) | Originality check, Suno commercial terms, mastering, distribution | ⚪ |
@@ -196,7 +210,7 @@ BODY:    meet    power       loss    stronger    despair UNSTOPPABLE shock      
 
 **Style field:**
 ```
-epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, fast hard-hitting battle beats, crushing heavy sub bass, distorted 808s, heartbeat kick pulse, ancient Aramaic monastic male choir chanting in Gregorian style, ethereal wordless angelic female vocalise, accelerating tension build-ups, risers and snare rolls, silence before each drop, repeated cycles of collapse and stronger comeback, each drop faster and heavier than the last, mournful breakdowns, minor key, heroic tragic sacrifice finale, final major chord, cathedral reverb
+epic dark cinematic phonk techno hybrid, mostly instrumental, 140 BPM, C minor, crushing heavy sub bass, heartbeat kick pulse, ancient Aramaic monastic male choir chanting in Hijaz scale Gregorian style, ethereal wordless angelic female vocalise, three escalating battle drops: first dark rolling techno, second techno phonk hybrid, third full heavy phonk with distorted 808s and dark cowbell melody, accelerating tension build-ups, risers and snare rolls, silence before each drop, mournful breakdowns where all hope is lost, each comeback faster and heavier, heroic tragic sacrifice finale, ends on C major chord, cathedral reverb
 ```
 
 **Exclude Styles field:**
@@ -217,7 +231,7 @@ pop, rap, love song, English lyrics, spoken word, lead singer, cheesy EDM, happy
 KOOM!
 [Silence]
 
-[Drop – fast heavy battle beat, crushing bass]
+[Drop – dark rolling techno battle, four-on-the-floor, crushing bass]
 [Instrumental]
 
 [Breakdown – bass cuts out, heartbeat faltering, dark drone, mournful female vocalise]
@@ -229,7 +243,7 @@ KOOM!
 KOOM!
 [Silence]
 
-[Drop – faster, heavier battle]
+[Drop – faster techno phonk hybrid battle, saturated 808s, harder snares]
 [Instrumental]
 
 [Breakdown – near silence, heartbeat barely beating, single female note]
@@ -240,13 +254,13 @@ KOOM!
 KOOM!
 [Silence]
 
-[Drop – fastest, heaviest, final battle, choir war cries]
+[Drop – fastest full heavy phonk battle, distorted 808s, dark cowbell melody, choir war cries]
 [Instrumental]
 
 [Sacrifice – everything stops, single impact, heartbeat alone, slowing]
 (Mau-ta…)
 
-[Outro – angelic female vocalise, full choir, slow, final major chord]
+[Outro – angelic female vocalise, full choir, slow, resolves to C major]
 (Shlaa-ma… gab-baa-ra…)
 (Nooh-ra…)
 [Heartbeat slows and stops]
@@ -282,3 +296,6 @@ KOOM!
 | 5d | Battles | Fight to the beat, instrumental, fast and heavy |
 | 5e | Structure | 3 rounds: battle → hope lost → stronger/faster comeback, then sacrifice |
 | 5f | Working title | QUM |
+| 6a | Round escalation | R1 dark techno → R2 techno-phonk → R3 full phonk |
+| 6b | Key | C minor, Hijaz-flavored chant → final C major |
+| 6c | Cowbell | Yes, Round 3 only, dark, plays the angel motif |
